@@ -12,6 +12,7 @@ const ExpenseForm = (props) => {
   //   });
 
   const inputTitleHandler = (value) => {
+    console.log(value, 'foprm')
     setEnteredTitle(value);
     // setUserInput({
     //     ...userInput,
